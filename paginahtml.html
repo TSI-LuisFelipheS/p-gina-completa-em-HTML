@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<title>Meu Site - Apresentação</title>
+<style>
+    body {
+        font-size: 20px;
+        text-align: center;
+    }
+    #cabecalho {
+        width: 100%;
+        height: 100px;
+        border: 1px solid black;
+        background: #CDCDC1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    #menu {
+        float: left;
+        min-height: 300px;
+        width: 200px;
+        border: 1px solid black;
+        background: #8b8b83;
+        text-align: left;
+        padding-left: 10px;
+    }
+    #menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #menu li {
+        margin: 10px 0;
+    }
+    #menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #menu a:hover {
+        text-decoration: underline;
+    }
+    #conteudo {
+        margin-left: 220px; /* Espaço para o menu lateral */
+        min-height: 300px;
+        border: 1px solid black;
+        background: white;
+        padding: 20px;
+        text-align: left;
+    }
+    #rodape {
+        width: 100%;
+        height: 50px;
+        border: 1px solid black;
+        background: #CDCDC1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+</head>
+<body>
+<div id="cabecalho">Bem-vindo ao meu site!</div>
+
+<div id="menu">
+    <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="principal.html">Principal</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="http://www.google.com" target="_blank">Google</a></li>
+        <li><a href="http://www.ifmt.edu.br" target="_blank">IFMT</a></li>
+        <li><a href="mailto:paulo.lopes@cba.ifmt.edu.br?Subject=MinhaPaginaWeb">Contato</a></li>
+    </ul>
+</div>
+
+<div id="conteudo">
+    <h2>Sobre o meu site</h2>
+    <p>Este site foi desenvolvido como atividade da disciplina de Desenvolvimento Web.</p>
+    <p>Aqui você encontra informações sobre os meus projetos, página principal, informações sobre mim e links úteis.</p>
+    <p>Utilizamos HTML e CSS para estruturar e estilizar todo o conteúdo, incluindo este menu lateral e a apresentação central.</p>
+</div>
+
+<div id="rodape">Rodapé do site © 2025</div>
+</body>
+</html>
